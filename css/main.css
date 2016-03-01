@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #434952;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+
+.nav li {
+    color: #D1E4FF;
+    display: inline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.nav li:hover {
+    color: #9DABBF;
+    cursor: pointer;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.jumbotron {
+    background: url(https://s3-us-west-2.amazonaws.com/everfest-uploads/uploads/festival_series/hosted_cover_photo/az-college-battle-of-the-bands-chandler-az.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.main {
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.footer {
+    background: #434952;
+    padding: 40px 0;
+}
+
+.footer ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    color: #fff;
+    display: inline;
+    margin: 0 40px 0 0;
+}
